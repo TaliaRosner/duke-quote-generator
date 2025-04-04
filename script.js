@@ -21,5 +21,14 @@ const quotes = [
     quoteDisplay.textContent = `"${newQuote}"`;
   });
   
-  
+  // Woof Counter
+let woofCount = 0;
+const woofBtn = document.getElementById("woofBtn");
+const woofCountDisplay = document.getElementById("woofCount");
+
+woofBtn.addEventListener("click", () => {
+  woofCount++;
+  woofCountDisplay.textContent = woofCount;
+});
+
   

@@ -7,12 +7,40 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Duke's Wisdom Generator 🐾</h1>
-    <img src="duke.jpg" alt="Duke looking wise" class="duke-img" />
-    <p id="quote">Click the button to receive dog wisdom:</p>
-    <button id="generateBtn">🐾 Get Wisdom</button>
+  
+<div class="flex-container">
+  <div class="left-column">
+    <!-- Duke Generator Content -->
+    <div class="container">
+      <h1>Duke's Wisdom Generator 🐾</h1>
+      <img src="duke.jpg" alt="Duke being wise" class="duke-img" />
+      <p id="quote">Click the button to receive dog wisdom.</p>
+      <p id="dukeReaction" class="reaction"></p>
+      <button id="generateBtn">🐾 Get Wisdom</button>
+    </div>
   </div>
+
+  <div class="right-column">
+    <div class="side-panel">
+      <h2>Meet Duke</h2>
+      <p>🐶 Age: 10<br>🏡 Job: Chief Barketing Officer<br>🎯 Strengths: Vibes, naps, Amazon package delivery surveillance</p>
+      <h3>Favorite Snacks:</h3>
+      <ul>
+        <li>🍌 Banana</li>
+        <li>🥔 Potato chips (stolen)</li>
+        <li>🧀 String cheese</li>
+      </ul>
+      <h3>Job Interview Q&A 🧠</h3>
+      <p><strong>Q:</strong> Why should we hire you?<br>
+      <strong>A:</strong> I bark with passion and never miss a squirrel.</p>
+      <h3>Woof Counter 🔊</h3>
+      <p>Duke has barked <span id="woofCount">0</span> times today.</p>
+      <button id="woofBtn">Add a Bark</button>
+</div>
+    </div>
+  </div>
+</div>
+
 
   <script src="script.js"></script>
 </body>
