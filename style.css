@@ -28,16 +28,21 @@ body {
     background-color: #ffca28;
     color: #4e342e;
     border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
   
   button:hover {
     background-color: #fbc02d;
+    box-shadow: 0 0 15px rgba(255, 202, 40, 0.7);
+    transform: scale(1.05);
   }
+  
   
   #quote {
     font-size: 1.5rem;
